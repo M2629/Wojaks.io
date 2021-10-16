@@ -1,8 +1,8 @@
-# Infinitiy.Finance
+# Euler.io
 High Yield Farming for sustainable passive income
 
 Abstract  
-Infinity   Finance   is   simple   and   experimental   yield   farming   designed   to   benefit   passive income earners
+Euler.io is a simple yield   farming   designed   to   benefit   passive income earners
 for   the   long   term.   It   introduces   “Infinites”   for   stakers   and   liquidity   providers   to   earn   rewards   and  
 increase   their   holdings   while   participating   in   network   growth.  
  
