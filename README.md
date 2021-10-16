@@ -6,9 +6,9 @@ Infinity   Finance   is   simple   and   experimental   yield   farming   design
 for   the   long   term.   It   introduces   “Infinites”   for   stakers   and   liquidity   providers   to   earn   rewards   and  
 increase   their   holdings   while   participating   in   network   growth.  
  
-Our   e^x`   (E)   token   has   a   total   supply   of   10,000.   Since   no   presale   or   team   fund   was  
-created,   there   will   be   no   circulating   CANE   at   launch.   Instead,   a   reward   allocation   will   begin   at  
-5,000   tokens   and   halve   every   2   weeks   until   a   total   of   10,000   CANE   has   been   distributed   to  
+Our   Euler   (E)   token   has   a   total   supply   of   10,000.   Since   no   presale   or   team   fund   was  
+created,   there   will   be   no   circulating   Euler   at   launch.   Instead,   a   reward   allocation   will   begin   at  
+5,000   tokens   and   halve   every   2   weeks   until   a   total   of   10,000   Euler   has   been   distributed   to  
 liquidity   storms   and   storm   chasers.   The   reward   allocation   will   be   split   up   amongst   the   storms  
 according   to   the   percentages   described   in   each   storm   below.  
  
