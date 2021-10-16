@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="apple-touch-icon" href="/apple-chrome-192x192.png" />
+<link rel="icon" type="image/png" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" href="/favicon.ico" />
+<link rel="manifest" href="/manifest.json" />
+<meta name="msapplication-TileColor" content="#ffffff" />
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+<meta name="theme-color" content="#ffffff" />
+<meta name="theme-color" content="#000000" />
+<meta name="viewport" content="initial-scale=1,minimum-scale=1,width=device-width,shrink-to-fit=yes" />
+<link rel="manifest" href="/manifest.json" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6V83EEX82G" />
+    <script>
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      (window.dataLayer = window.dataLayer || []),
+        gtag("js", new Date()),
+        gtag("config", "G-6V83EEX82G");
+    </script>
+<title>
+      Infinity.Finance - Experimental Yield Farming for those who Love Passivle Income
+    </title>
+<link href="/static/css/456.83452e77.chunk.css" rel="stylesheet" />
+<link href="/static/css/main.a407d02e.chunk.css" rel="stylesheet" />
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root"></div>
+<script>
+      !(function (e) {
+        function b(b) {
+          for (
+            var a, r, t = b[0], n = b[1], o = b[2], i = 0, l = [];
+            i < t.length;
+            i++
+          )
+            (r = t[i]),
+              Object.prototype.hasOwnProperty.call(f, r) &&
+                f[r] &&
+                l.push(f[r][0]),
+              (f[r] = 0);
+          for (a in n)
+            Object.prototype.hasOwnProperty.call(n, a) && (e[a] = n[a]);
+          for (u && u(b); l.length; ) l.shift()();
+          return d.push.apply(d, o || []), c();
+        }
+        function c() {
+          for (var e, b = 0; b < d.length; b++) {
+            for (var c = d[b], a = !0, t = 1; t < c.length; t++) {
+              var n = c[t];
+              0 !== f[n] && (a = !1);
+            }
+            a && (d.splice(b--, 1), (e = r((r.s = c[0]))));
+          }
+          return e;
+        }
+        var a = {},
+          f = { 455: 0 },
+          d = [];
+        function r(b) {
+          if (a[b]) return a[b].exports;
+          var c = (a[b] = { i: b, l: !1, exports: {} });
+          return e[b].call(c.exports, c, c.exports, r), (c.l = !0), c.exports;
+        }
+        (r.e = function (e) {
+          var b = [],
+            c = f[e];
+          if (0 !== c)
+            if (c) b.push(c[2]);
+            else {
+              var a = new Promise(function (b, a) {
+                c = f[e] = [b, a];
+              });
+              b.push((c[2] = a));
+              var d,
+                t = document.createElement("script");
+              (t.charset = "utf-8"),
+                (t.timeout = 120),
+                r.nc && t.setAttribute("nonce", r.nc),
+                (t.src = (function (e) {
+                  return (
+                    r.p +
+                    "static/js/" +
+                    ({}[e] || e) +
+                    "." +
+                    {
+                      0: "6c266eaa",
+                      1: "55865b14",
+                      2: "e132962a",
+                      3: "d4f9283c",
+                      4: "8a2edb26",
+                      5: "b3fabfca",
+                      6: "705a99df",
+                      7: "af67ae83",
+                      8: "74835a82",
+                      9: "359ede41",
+                      10: "64fdb006",
+                      11: "020199d5",
+                      12: "91fc0dd2",
+                      13: "8412a81f",
+                      14: "ae216ce0",
+                      15: "af5dc8c3",
+                      16: "1e3680e8",
+                      17: "bdd099d9",
+                      18: "411f9cbb",
+                      19: "29fd8404",
+                      20: "5da6dcf6",
+                      21: "b269000d",
+                      22: "717ba6cc",
+                      23: "047cc2f0",
+                      24: "4dff7537",
+                      25: "cebf1b95",
+                      26: "0bbd22e0",
+                      27: "95309749",
+                      28: "6fe71f51",
+                      29: "c94eb09f",
+                      30: "a1ffac36",
+                      31: "e62a28ab",
+                      32: "a3c427bc",
+                      33: "5ab3bead",
+                      34: "7716b9bf",
+                      35: "f997ebce",
+                      36: "007c1215",
+                      37: "4f411fb0",
+                      38: "62150503",
+                      39: "a996229c",
+                      40: "960d5629",
+                      41: "071b04bc",
+                      42: "56f99edd",
+                      43: "1cb62442",
+                      44: "416b9668",
+                      45: "52c52952",
+                      46: "268b0510",
+                      47: "ee1bb273",
+                      48: "0756f1f6",
+                      49: "d58219f6",
+                      50: "328f206e",
+                      51: "5c9176cb",
+                      52: "7b2565cf",
+                      53: "8ff0fde2",
+                      54: "83af7009",
+                      55: "a1305cd5",
+                      56: "96348764",
+                      57: "2ea26983",
+                      58: "84184197",
+                      59: "f6254e70",
+                      60: "5c39cd92",
+                      61: "d44bbb66",
+                      62: "8db10864",
+                      63: "0220e343",
+                      64: "ceda3233",
+                      65: "a17bbb24",
+                      66: "97a5531f",
+                      67: "c44eca11",
+                      68: "129b2244",
+                      69: "dacbe707",
+                      70: "5b33f11d",
+                      71: "58ba2434",
+                      72: "67e0cef7",
+                      73: "b88935d8",
+                      74: "599893d9",
+                      75: "d723f0dc",
+                      76: "c16d20f6",
+                      77: "dd10a557",
+                      78: "331f5e47",
+                      79: "3d22600e",
+                      80: "22d5b194",
+                      81: "f9c8db3c",
+                      82: "89630490",
+                      83: "4125cd29",
+                      84: "af7b9242",
+                      85: "534ecbf4",
+                      86: "467d5f6d",
+                      87: "e5beac09",
+                      88: "f98b7961",
+                      89: "93c6368b",
+                      90: "eca8f5b7",
+                      91: "40d33d21",
+                      92: "7a68fd31",
+                      93: "23d6a6e5",
+                      94: "f2a21618",
+                      95: "5f8c43c2",
+                      96: "27778ffb",
+                      97: "894f77a4",
+                      98: "3ae6143a",
+                      99: "2dbf8159",
+                      100: "0139d677",
+                      101: "a4d51109",
+                      102: "2de50e75",
+                      103: "4a963bef",
+                      104: "51a0e603",
+                      105: "04e29cc3",
+                      106: "4ceca40d",
+                      107: "5e1be77d",
+                      108: "e519f840",
+                      109: "1278189b",
+                      110: "d9463c74",
+                      111: "e8d21cd4",
+                      112: "65e8e32a",
+                      113: "7b1ba3f5",
+                      114: "655898dc",
+                      115: "e9a6eb96",
+                      116: "ceaf2486",
+                      117: "2e817433",
+                      118: "b92ae6d1",
+                      119: "2f787792",
+                      120: "dc31987d",
+                      121: "864215ee",
+                      122: "692d90e0",
+                      123: "ac8086b9",
+                      124: "fcd16e85",
+                      125: "8d6676d6",
+                      126: "cbaef778",
+                      127: "7b793b7c",
+                      128: "eb6b074f",
+                      129: "a6b0b8c2",
+                      130: "a92c277a",
+                      131: "76ace476",
+                      132: "428ee290",
+                      133: "2c80c9cd",
+                      134: "63cabfec",
+                      135: "c9f0f926",
+                      136: "9c9992f0",
+                      137: "911e75e0",
+                      138: "afa651b8",
+                      139: "eb51378c",
+                      140: "371cc360",
+                      141: "2270c72e",
+                      142: "f1f69558",
+                      143: "f74c645b",
+                      144: "f38ff55e",
+                      145: "7cfeea52",
+                      146: "912a2232",
+                      147: "976babaf",
+                      148: "6380cc12",
+                      149: "3a143b30",
+                      150: "2ce1ceeb",
+                      151: "0be66971",
+                      152: "88a909e9",
+                      153: "76b23cbc",
+                      154: "b1ee8f22",
+                      155: "3a7b0620",
+                      156: "39e4057b",
+                      157: "e16e2055",
+                      158: "eaf1862d",
+                      159: "6eff151b",
+                      160: "b44f8651",
+                      161: "3cb7797d",
+                      162: "5c4cd7a6",
+                      163: "48b6ca4a",
+                      164: "6bc8fb0a",
+                      165: "c7bddefa",
+                      166: "d3ab8252",
+                      167: "787b4b41",
+                      168: "1dfa586a",
+                      169: "6631f4ee",
+                      170: "5be9fbc4",
+                      171: "51f0fdd3",
+                      172: "9e0d68cd",
+                      173: "c87b24e8",
+                      174: "6877937a",
+                      175: "d22e2609",
+                      176: "65d6b464",
+                      177: "84badfd6",
+                      178: "367147d1",
+                      179: "77384687",
+                      180: "b9aae899",
+                      181: "a790cfe6",
+                      182: "246d6fd4",
+                      183: "43078843",
+                      184: "7b14b3b6",
+                      185: "c365c343",
+                      186: "db200bd9",
+                      187: "f80b1aba",
+                      188: "0ae62d30",
+                      189: "12c123a3",
+                      190: "6afe93ca",
+                      191: "8b0a9929",
+                      192: "bb7379b1",
+                      193: "8a9a9953",
+                      194: "b6995150",
+                      195: "f455a25d",
+                      196: "ad02b8b6",
+                      197: "9830a25b",
+                      198: "00e92fe7",
+                      199: "19ce6fee",
+                      200: "391f37fb",
+                      201: "3f496c03",
+                      202: "98d029e1",
+                      203: "db5f0dcd",
+                      204: "5035af29",
+                      205: "626bbcc6",
+                      206: "4787846b",
+                      207: "bbd32141",
+                      208: "90f4d486",
+                      209: "453da686",
+                      210: "3f0fe343",
+                      211: "2e240c32",
+                      212: "81cc1e85",
+                      213: "d4c30168",
+                      214: "33844a73",
+                      215: "5d221096",
+                      216: "b7daba2d",
+                      217: "4fe1b63d",
+                      218: "9f574ec2",
+                      219: "e9d0ebbe",
+                      220: "696aac6c",
+                      221: "5caf7fa1",
+                      222: "a28a039c",
+                      223: "7d9f0afd",
+                      224: "3664106d",
+                      225: "084fbba9",
+                      226: "4ab3bb99",
+                      227: "1e101da2",
+                      228: "ff85c2bf",
+                      229: "7ed86f24",
+                      230: "8deb2720",
+                      231: "f811ffc3",
+                      232: "8f7eb544",
+                      233: "0284f712",
+                      234: "e31506be",
+                      235: "751a20d0",
+                      236: "8c7b13d4",
+                      237: "e380bce6",
+                      238: "34573a95",
+                      239: "8cf66164",
+                      240: "587e8bfc",
+                      241: "776eff52",
+                      242: "87e1a1a7",
+                      243: "98027500",
+                      244: "3e549d70",
+                      245: "88fd09a0",
+                      246: "741c247b",
+                      247: "4afbd2ea",
+                      248: "c1141820",
+                      249: "fe9b966c",
+                      250: "1133ea2a",
+                      251: "e1d95d74",
+                      252: "555ff902",
+                      253: "ba877447",
+                      254: "49419f29",
+                      255: "72b19007",
+                      256: "a2d8498d",
+                      257: "a12b4569",
+                      258: "ca7e1ae8",
+                      259: "4aabfc54",
+                      260: "53691e88",
+                      261: "5d608d59",
+                      262: "5759b6c6",
+                      263: "ff323869",
+                      264: "3294fc32",
+                      265: "42044e76",
+                      266: "69717c46",
+                      267: "10a9a7d5",
+                      268: "c1f3017f",
+                      269: "b77ada4e",
+                      270: "76eee9b6",
+                      271: "0b36a2e9",
+                      272: "b0a89b7e",
+                      273: "b22c63cc",
+                      274: "9cc7266b",
+                      275: "7b108039",
+                      276: "af9e2c2f",
+                      277: "02488726",
+                      278: "d30ef14b",
+                      279: "c16bb386",
+                      280: "ed0af930",
+                      281: "65b7eb27",
+                      282: "2d96b901",
+                      283: "ebfc6603",
+                      284: "6dd3a451",
+                      285: "8c07140e",
+                      286: "0eb647a1",
+                      287: "b523b353",
+                      288: "9a4b187f",
+                      289: "c06c24a5",
+                      290: "a503c7ac",
+                      291: "749893a2",
+                      292: "35f4cdd2",
+                      293: "d42b6db1",
+                      294: "daa4f4a0",
+                      295: "3237fa3c",
+                      296: "efeb8a43",
+                      297: "e8da0a17",
+                      298: "8300856e",
+                      299: "d402c1cc",
+                      300: "f710b64b",
+                      301: "f74ccd3f",
+                      302: "fda9d1ff",
+                      303: "d9873cbb",
+                      304: "9141dd4d",
+                      305: "3d2017f7",
+                      306: "c9b65c68",
+                      307: "26880eda",
+                      308: "09414a49",
+                      309: "e68fb63d",
+                      310: "4c7ea3e2",
+                      311: "872b256e",
+                      312: "a99ec9b5",
+                      313: "3fe83c54",
+                      314: "bb0cf017",
+                      315: "b95a3f2f",
+                      316: "de9e492c",
+                      317: "f93fb0dc",
+                      318: "a3a6ae1e",
+                      319: "eed2bd4e",
+                      320: "226683bc",
+                      321: "d8b1fcb4",
+                      322: "a67beca2",
+                      323: "e4b71c3b",
+                      324: "5345cb5a",
+                      325: "cd4a2633",
+                      326: "9d878133",
+                      327: "902d019e",
+                      328: "9b7fbc8f",
+                      329: "72ac8554",
+                      330: "a82abbb9",
+                      331: "0bcc2ae8",
+                      332: "2cbefd85",
+                      333: "5ddbe981",
+                      334: "b5025b28",
+                      335: "36402bb6",
+                      336: "08d2fbdd",
+                      337: "73ab746d",
+                      338: "7aac4831",
+                      339: "8ebc1158",
+                      340: "5deaed40",
+                      341: "7d6208c6",
+                      342: "8bfed282",
+                      343: "6a7ebbc3",
+                      344: "6fe2f898",
+                      345: "bfe4cc08",
+                      346: "8f1d03a6",
+                      347: "1bce8848",
+                      348: "0d90cf95",
+                      349: "056d4bbd",
+                      350: "fae8159e",
+                      351: "b6e9c49c",
+                      352: "ae968698",
+                      353: "2ecf4c2f",
+                      354: "785840d5",
+                      355: "9e0e5164",
+                      356: "83010b31",
+                      357: "b9c9607c",
+                      358: "345e3877",
+                      359: "35a06b4d",
+                      360: "0bbdf8c9",
+                      361: "7cd7ba3f",
+                      362: "d916e567",
+                      363: "e03cee55",
+                      364: "3d43d782",
+                      365: "3dcda77b",
+                      366: "03d01496",
+                      367: "bc0a36ba",
+                      368: "a9b9eca6",
+                      369: "67c3a298",
+                      370: "c9fe0b11",
+                      371: "e8b51407",
+                      372: "00eb2c61",
+                      373: "79ff46f6",
+                      374: "cf6bc166",
+                      375: "05ea875b",
+                      376: "af9f0c04",
+                      377: "cacd7d9c",
+                      378: "b032895a",
+                      379: "6d3a811f",
+                      380: "3b99dd34",
+                      381: "63ba70db",
+                      382: "344bc026",
+                      383: "040b15f5",
+                      384: "b16c2b5c",
+                      385: "7cc36690",
+                      386: "c37a3c64",
+                      387: "41abeb65",
+                      388: "dda65506",
+                      389: "0b747f22",
+                      390: "035113bb",
+                      391: "a5100087",
+                      392: "4d0ae2b2",
+                      393: "af3030ab",
+                      394: "80532cb1",
+                      395: "a67a734b",
+                      396: "e19b678b",
+                      397: "ef7342ee",
+                      398: "7d7f64e9",
+                      399: "4c00c4ac",
+                      400: "76288974",
+                      401: "684a44bf",
+                      402: "fc2a96e9",
+                      403: "d67cf06f",
+                      404: "46fcec94",
+                      405: "577db778",
+                      406: "8985e936",
+                      407: "6532f154",
+                      408: "b9340258",
+                      409: "8d96cf6f",
+                      410: "f6fd5cb6",
+                      411: "7c155c47",
+                      412: "8aa5e2b2",
+                      413: "a9eaf337",
+                      414: "dee8efb1",
+                      415: "c9af2066",
+                      416: "93bd9e9c",
+                      417: "fec8b323",
+                      418: "f0d729e3",
+                      419: "5bf21211",
+                      420: "d8be3bc9",
+                      421: "cac2b54d",
+                      422: "f682bbce",
+                      423: "4f367036",
+                      424: "186df631",
+                      425: "fb6353ab",
+                      426: "e9c6dd50",
+                      427: "fa4334fb",
+                      428: "c73fb9c4",
+                      429: "5b089678",
+                      430: "996dd3f9",
+                      431: "ab76b83e",
+                      432: "6b44b83e",
+                      433: "9d874770",
+                      434: "69aaeffb",
+                      435: "04d316c2",
+                      436: "85d14927",
+                      437: "87148c11",
+                      438: "876e4422",
+                      439: "6f553043",
+                      440: "ebb3c564",
+                      441: "ded94fa1",
+                      442: "e9d9b679",
+                      443: "a4990622",
+                      444: "f0e4dc6f",
+                      445: "2fa34bc7",
+                      446: "2dbe3959",
+                      447: "9da1bc97",
+                      448: "8824aedf",
+                      449: "d4301884",
+                      450: "b9c2d689",
+                      451: "c84b6eb2",
+                      452: "86895ea5",
+                      453: "ddd0fa35",
+                      457: "9427b834",
+                      458: "90959a81",
+                      459: "bae16fbc",
+                      460: "d400d093",
+                      461: "ea81ed54",
+                      462: "c49e8a28",
+                      463: "9c6daeda",
+                      464: "22c9c6bb",
+                      465: "55aead7f",
+                      466: "130eb98b",
+                      467: "e5b4c477",
+                    }[e] +
+                    ".chunk.js"
+                  );
+                })(e));
+              var n = new Error();
+              d = function (b) {
+                (t.onerror = t.onload = null), clearTimeout(o);
+                var c = f[e];
+                if (0 !== c) {
+                  if (c) {
+                    var a = b && ("load" === b.type ? "missing" : b.type),
+                      d = b && b.target && b.target.src;
+                    (n.message =
+                      "Loading chunk " +
+                      e +
+                      " failed.\n(" +
+                      a +
+                      ": " +
+                      d +
+                      ")"),
+                      (n.name = "ChunkLoadError"),
+                      (n.type = a),
+                      (n.request = d),
+                      c[1](n);
+                  }
+                  f[e] = void 0;
+                }
+              };
+              var o = setTimeout(function () {
+                d({ type: "timeout", target: t });
+              }, 12e4);
+              (t.onerror = t.onload = d), document.head.appendChild(t);
+            }
+          return Promise.all(b);
+        }),
+          (r.m = e),
+          (r.c = a),
+          (r.d = function (e, b, c) {
+            r.o(e, b) ||
+              Object.defineProperty(e, b, { enumerable: !0, get: c });
+          }),
+          (r.r = function (e) {
+            "undefined" != typeof Symbol &&
+              Symbol.toStringTag &&
+              Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
+              Object.defineProperty(e, "__esModule", { value: !0 });
+          }),
+          (r.t = function (e, b) {
+            if ((1 & b && (e = r(e)), 8 & b)) return e;
+            if (4 & b && "object" == typeof e && e && e.__esModule) return e;
+            var c = Object.create(null);
+            if (
+              (r.r(c),
+              Object.defineProperty(c, "default", { enumerable: !0, value: e }),
+              2 & b && "string" != typeof e)
+            )
+              for (var a in e)
+                r.d(
+                  c,
+                  a,
+                  function (b) {
+                    return e[b];
+                  }.bind(null, a)
+                );
+            return c;
+          }),
+          (r.n = function (e) {
+            var b =
+              e && e.__esModule
+                ? function () {
+                    return e.default;
+                  }
+                : function () {
+                    return e;
+                  };
+            return r.d(b, "a", b), b;
+          }),
+          (r.o = function (e, b) {
+            return Object.prototype.hasOwnProperty.call(e, b);
+          }),
+          (r.p = "/"),
+          (r.oe = function (e) {
+            throw (console.error(e), e);
+          });
+        var t = (this["webpackJsonphurricane-finance"] =
+            this["webpackJsonphurricane-finance"] || []),
+          n = t.push.bind(t);
+        (t.push = b), (t = t.slice());
+        for (var o = 0; o < t.length; o++) b(t[o]);
+        var u = n;
+        c();
+      })([]);
+    </script>
+<script src="/static/js/456.7cc45651.chunk.js"></script>
+<script src="/static/js/main.5a44db60.chunk.js"></script>
+</body>
+</html>
