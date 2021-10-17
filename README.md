@@ -1,9 +1,11 @@
 # Euler.io
+
 -Permissionless Lending-
+
    Borrow any token
 
 
-Abstract  
+-Abstract-  
 
 Euler is a capital-efficient permissionless lending protocol that helps users to earn interest on their crypto assets or hedge against volatile markets without the need for a trusted third party.
 Lenders supply assets into any of the lending pairs to earn interest. Borrowers pay interest to borrow while collateralizing their loans. The protocol earns an interest rate spread.
@@ -32,6 +34,7 @@ For each lending pair, LPs are able to deposit just one asset and withdraw the s
 While there is no risk of IL, there is another risk to be aware of. Just like with Compound, Aave, or Cream, the risk in Euler is that during periods of high utilization, you may have to wait a bit until there is more liquidity for you to withdraw all your funds.
 
 -Euler (E) token-
+
 Euler is the governance token of the Euler permissionless lending protocol.
 The protocol will earn fees, coming from the interest rate spread and liquidations.
 
