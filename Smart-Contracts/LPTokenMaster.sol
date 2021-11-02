@@ -124,8 +124,8 @@ contract LPTokenMaster is Ownable {
   mapping (address => mapping (address => uint)) public allowance;
 
   bool private initialized;
-  string public constant name     = "EULER-LP";
-  string public constant symbol   = "EULER-LP";
+  string public constant name     = "CLOVER-LP";
+  string public constant symbol   = "CLOVER-LP";
   uint8  public constant decimals = 18;
   uint public totalSupply;
 
