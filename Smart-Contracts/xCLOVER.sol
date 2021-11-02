@@ -93,38 +93,38 @@ contract ERC20 {
   }
 }
 
-contract AutoStaking is ERC20("xEULER", "xEULER", 18) {
+contract AutoStaking is ERC20("xCLOVER", "xCLOVER", 18) {
 
-  IERC20 public euler;
+  IERC20 public clover;
 
-  event Deposit(uint eulerAmount, uint shareAmount);
-  event Withdraw(uint eulerAmount, uint shareAmount);
+  event Deposit(uint cloverAmount, uint shareAmount);
+  event Withdraw(uint cloverAmount, uint shareAmount);
 
-  constructor(IERC20 _euler) {
-    euler = _euler;
+  constructor(IERC20 _clover) {
+    clover = _clover;
   }
 
-  function deposit(uint _eulerAmount) external {
-    uint poolEULER = euler.balanceOf(address(this));
+  function deposit(uint _cloverAmount) external {
+    uint poolCLOVER = clover.balanceOf(address(this));
     uint shareAmount;
 
-    if (totalSupply == 0 || poolEULER == 0) {
-      _mint(msg.sender, _eulerAmount);
+    if (totalSupply == 0 || poolCLOVER == 0) {
+      _mint(msg.sender, _cloverAmount);
     } else {
-      shareAmount = _eulerAmount * totalSupply / poolEULER;
+      shareAmount = _cloverAmount * totalSupply / poolCLOVER;
       _mint(msg.sender, shareAmount);
     }
 
-    euler.transferFrom(msg.sender, address(this), _eulerAmount);
+    clover.transferFrom(msg.sender, address(this), _cloverAmount);
 
-    emit Deposit(_eulerAmount, shareAmount);
+    emit Deposit(_cloverAmount, shareAmount);
   }
 
   function withdraw(uint _share) external {
-    uint eulerAmount = _share * euler.balanceOf(address(this)) / totalSupply;
+    uint cloverAmount = _share * clover.balanceOf(address(this)) / totalSupply;
     _burn(msg.sender, _share);
-    euler.transfer(msg.sender, eulerAmount);
+    clover.transfer(msg.sender, cloverAmount);
 
-    emit Withdraw(eulerAmount, _share);
+    emit Withdraw(cloverAmount, _share);
   }
 }
